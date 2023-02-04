@@ -20,7 +20,7 @@ body{
 }
 
 h1{
-    padding-top: 15px;
+    padding-top: 22px;
     padding-bottom: 15px;
     background: var(--color);
     color: #eff0f4;
@@ -80,7 +80,18 @@ h2{
     padding-right: 10%;
 }
 
+.back{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100px;
+    z-index: 2;
+}
+
 @media all and (max-width: 1000px) {
+    .back{
+        display: none;
+    }
     .all{
         width: 100%;
         margin-left: 0;
