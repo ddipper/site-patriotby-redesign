@@ -11,7 +11,7 @@ body {
     align-items: center;
     align-content: center;
     flex-direction: column;
-    background-color: rgb(27,27,27);
+    background-color: #eff0f4;
     min-height: 100%;
     width: 91%;
     margin-left: 4.5%;
@@ -20,14 +20,14 @@ body {
 h1{
     font-size: 40pt;
     margin-top: 25px;
-    color: #d7d7d7;
+    color: rgb(123, 0, 255);
 }
 
 .container {
     margin-top: 60px;
     position: relative;
     min-height: 100vh;
-    background: rgb(27,27,27);
+    background: #eff0f4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,14 +44,14 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 20px 20px 20px rgba(245, 245, 245, 0.05), 25px 35px 20px rgba(245, 245, 245, 0.05),
-    25px 30px 30px rgba(245, 245, 245, 0.05), inset -20px -20px 25px rgb(27, 27, 27);
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05), 25px 35px 20px rgba(0, 0, 0, 0.05),
+    25px 30px 30px rgba(0, 0, 0, 0.05), inset -20px -20px 25px rgba(255, 255, 255, 0.9);
     transition: 0.5s ease-in-out;
     cursor: pointer;
 }
 
 .drop p {
-    color: #d7d7d7;
+    color: #1c1c1c;
     font-size: 15pt;
 }
 
@@ -101,42 +101,64 @@ h1{
     height: 120px;
     background: rgb(27,27,27);
     border-radius: 50%;
-    box-shadow: inset 2px 5px 10px rgba(245, 245, 245, 0.05), inset -2px -5px 10px rgb(27, 27, 27),
-    15px 15px 10px rgba(245, 245, 245, 0.05), 15px 10px 15px rgba(245, 245, 245, 0.05);
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1), inset -2px -5px 10px rgba(255, 255, 255, 1),
+    15px 15px 10px rgba(0, 0, 0, 0.05), 15px 10px 15px rgba(0, 0, 0, 0.025);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
 }
 
+.material-symbols-outlined1{
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+}
+
 .drop:nth-child(1) .content h2{
-    background-image: url("img/Selivonik_120x160.jpeg");
+    background:#d7d7d7;
+    color: var(--color);
 }
 .drop:nth-child(2) .content h2{
-    background-image: url("img/Cesar_120x156.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    background:#d7d7d7;
+    color: var(--color);
 }
 .drop:nth-child(3) .content h2{
-    background-image: url("img/Shimal_120x179.jpeg");
+    background:#d7d7d7;
+    color: var(--color);
 }
 .drop:nth-child(4) .content h2{
-    background-image: url("img/AAp_120x179.jpeg");
+    background:#d7d7d7;
+    color: var(--color);
 }
 .drop:nth-child(5) .content h2{
-    background-image: url("img/Avgust_120x169.jpeg");
+    background:#d7d7d7;
+    color: var(--color);
 }
 .drop:nth-child(6) .content h2{
-    background-image: url("img/Chimarov_120x154.jpeg");
+    background:#d7d7d7;
+    color: var(--color);
 }
 .drop:nth-child(7) .content h2{
-    background-image: url("img/Alfons2jpg_120x179.jpeg");
+    background:#d7d7d7;
+    color: var(--color);
 }
 .drop:nth-child(8) .content h2{
-    background-image: url("img/Trast_120x179.jpeg");
+    background:#d7d7d7;
+    color: var(--color);
 }
 .drop:nth-child(9) .content h2{
-    background-image: url("img/Mak_120x179.jpeg");
+    background:#d7d7d7;
+    color: var(--color);
 }
 
 .drop .content a {
@@ -147,7 +169,7 @@ h1{
     border-radius: 25px;
     font-weight: 500;
     text-decoration: none;
-    text-shadow: 0 2px 2px rgba(245, 245, 245, 0.05);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
     opacity: 0.75;
     transition: 0.5s;
 }
@@ -164,7 +186,7 @@ h1{
     left: 50%;
     transform: translateX(-50%);
     height: 5px;
-    background: rgb(27, 27, 27);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     transition: 0.5s;
 }
