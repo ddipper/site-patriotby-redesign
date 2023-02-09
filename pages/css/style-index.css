@@ -142,3 +142,27 @@ footer a{
     width: 450px;
 }
 
+@media all and (max-width: 800px){
+    h1{
+        text-align: center;
+        padding:0;
+        padding-top:20px;
+        padding-bottom:40px;
+        font-size:40pt;
+    }
+
+    footer{
+        width: 80%;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .content{
+        padding-bottom: 40px;
+    }
+
+    #header{
+        padding: 0;
+    }
+
+}
